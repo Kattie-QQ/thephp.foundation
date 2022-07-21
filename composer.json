@@ -21,16 +21,9 @@
     "roave/security-advisories": "dev-latest"
   },
   "scripts": {
-    "publish": [
-      "./publish.sh"
-    ],
     "sculpin-watch": [
       "Composer\\Config::disableProcessTimeout",
       "sculpin generate --watch --server"
-    ],
-    "yarn-watch": [
-      "Composer\\Config::disableProcessTimeout",
-      "yarn encore dev --watch"
     ]
   },
   "config": {
